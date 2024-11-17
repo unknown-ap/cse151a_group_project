@@ -1,9 +1,9 @@
-#Milestone 2
+# Milestone 2
 ## Preprocessing Steps
 
 We plan to normalize the columns in our dataframe excluding the "Country" column using min max normalization because the data doesn't appear to be normally distributed. We do not need to deal with missing data because we have no missing data. We also will remove outliers. 
 
-#Milestone 3
+# Milestone 3
 ## What we did for Preprocessing
 
 We dropped all nan values, just in case there were any (it turns out there weren't). Then we scaled the data using a MinMaxScaler to get every feature between 0 and 1. Our model seemed to do very well, with an MSE of ~1.25% on training data, and ~1.48% on the testing data. We performed K-fold cross validation on the model and saw similar error across each set. 

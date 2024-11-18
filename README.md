@@ -6,7 +6,7 @@ We plan to normalize the columns in our dataframe excluding the "Country" column
 # Milestone 3
 ## What we did for Preprocessing
 
-We dropped all nan values, just in case there were any (it turns out there weren't). Then we scaled the data using a MinMaxScaler to get every feature between 0 and 1. Our model seemed to do very well, with an MSE of ~1.25% on training data, and ~1.48% on the testing data. We performed K-fold cross validation on the model and saw similar error across each set. 
+We dropped all nan values, just in case there were any (it turns out there weren't). Then we scaled the data using a MinMaxScaler to get every feature between 0 and 1. Our model seemed to do very well, with an MSE of ~1.25% on training data, and ~1.48% on the testing data. We performed K-fold cross validation on the model and saw similar error across each set, which was great! 
 
 Where does our model fit in the fitting graph: Our model is the simplest possible model that you could have for the set of features that we are training on, which is a liear model. This means it is on the left side of the fitting graph, end either is underfitting or fitting the data well. We hope to test out higher order polynomial models next milestone and evaluate if our model truly is underfitting or if the linear model is indeed a very representative model. 
 

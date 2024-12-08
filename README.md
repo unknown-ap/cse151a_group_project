@@ -25,7 +25,7 @@ These coefficients are for features: ["infant deaths", "Alcohol", "percentage ex
 Our average MSE was 0.0132. 
 
 ### Model 2
-	For the results of our polynomial regression model with degree two, we found that the train and test mean squared errors were 0.0102 and 0.0136 respectively. Additionally, we found that the r-squared values were 0.7752 and 0.7121, respectively. After performing k-fold cross validation for k = 5, we obtained these results for mean squared error after each iteration: 
+For the results of our polynomial regression model with degree two, we found that the train and test mean squared errors were 0.0102 and 0.0136 respectively. Additionally, we found that the r-squared values were 0.7752 and 0.7121, respectively. After performing k-fold cross validation for k = 5, we obtained these results for mean squared error after each iteration: 
 ***FIGURE HERE***
 Our average MSE was 0.0138.
 

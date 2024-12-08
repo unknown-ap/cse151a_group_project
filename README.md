@@ -35,7 +35,7 @@ For our dataset, we chose to use a dataset from Kaggle that displays each countr
 # Methods
 ### Data Exploration
 To explore our dataset we verified that there were no missing data or null observations in our dataset. Additionally we identified the datatypes of the features in our dataset and verified that they were all numerical except for one, ‘Country’, which was categorical. Additionally we observed that many of the features in our dataset are not normally distributed. 
-
+<img src="images/Feature Distrubutions.png" alt="Coefficients" width="500"/>
 ### Preprocessing
 We removed the categorical feature ‘Country’ from our datasets because we did not see it relevant for our model. We then decided to apply min-max normalization to our dataset because many of the features were not normally distributed, as noted in the Data Exploration section. Additionally we split our dataset into a training and test set with a 80:20 split.
 

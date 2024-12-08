@@ -19,7 +19,9 @@ For our second model we chose to do a polynomial linear regression model with a 
 ### Model 1
 For the results from our first linear regression model, we found that the mean squared error was fairly low for both the training data and the test data, with values of 0.0125 and 
 0.0148 respectively. We also found that the r-squared values were 0.7246 and 0.6865 respectively. Additionally, here were our coefficients for the first model: 
-**FIGURE HERE***
+
+![KFold](images/KFoldModel1.png "KFold")
+
 These coefficients are for features: ["infant deaths", "Alcohol", "percentage expenditure", "Hepatitis B", "Measles", "BMI", "under-five deaths", "Polio", "Total expenditure", "Diphtheria", "HIV/AIDS", "GDP", "Population", "thinness 1-19 years", "thinness 5-9 years", "Income composition of resources", "Schooling", "Year", "Status", "Adult Mortality"]. Additionally, after performing k-fold cross validation for k = 5, we obtained these results for the mean squared error after each iteration:
 **FIGURE HERE***
 Our average MSE was 0.0132. 

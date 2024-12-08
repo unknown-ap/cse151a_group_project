@@ -51,21 +51,25 @@ For our second model we chose to do a polynomial linear regression model with a 
 For the results from our first linear regression model, we found that the mean squared error was fairly low for both the training data and the test data, with values of 0.0125 and 
 0.0148 respectively. We also found that the r-squared values were 0.7246 and 0.6865 respectively. Additionally, here were our coefficients for the first model: 
 
-<img src="images/Coefficients.png" alt="Coefficients" width="1000"/>
+<img src="images/Coefficients.png" alt="Coefficients" width="300"/>
 
 These coefficients are for features: ["infant deaths", "Alcohol", "percentage expenditure", "Hepatitis B", "Measles", "BMI", "under-five deaths", "Polio", "Total expenditure", "Diphtheria", "HIV/AIDS", "GDP", "Population", "thinness 1-19 years", "thinness 5-9 years", "Income composition of resources", "Schooling", "Year", "Status", "Adult Mortality"]. Additionally, after performing k-fold cross validation for k = 5, we obtained these results for the mean squared error after each iteration:
 
-<img src="images/KFoldModel1.png" alt="KFold" width="1000"/>
+<img src="images/KFoldModel1.png" alt="KFold" width="300"/>
 
 Our average MSE was 0.0132. 
 
 ### Model 2
 For the results of our polynomial regression model with degree two, we found that the train and test mean squared errors were 0.0102 and 0.0136 respectively. Additionally, we found that the r-squared values were 0.7752 and 0.7121, respectively. After performing k-fold cross validation for k = 5, we obtained these results for mean squared error after each iteration: 
-***FIGURE HERE***
+
+<img src="images/KFoldModel2Poly2.png" alt="KFold" width="300"/>
+
 Our average MSE was 0.0138.
 
 For the results of our polynomial regression model with degree three, our mean squared errors for the train and test sets were 0.0019 and 2379.3295, respectively. Our r-squared values were 0.9582 and -50257.8120, respectively. After performing k-fold cross validation, we obtained these results for mean squared error after each iteration:
-**FIGURE HERE**
+
+<img src="images/KFoldModel2Poly3.png" alt="KFold" width="300"/>
+
 Our average MSE was 1645.2000. 
 
 # Discussion

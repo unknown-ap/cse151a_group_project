@@ -22,6 +22,8 @@ For the results from our first linear regression model, we found that the mean s
 
 ![Coefficients](images/Coefficients.png "Coefficients")
 
+<img src="images/Coefficients.png" alt="Coefficients" width="200"/>
+
 These coefficients are for features: ["infant deaths", "Alcohol", "percentage expenditure", "Hepatitis B", "Measles", "BMI", "under-five deaths", "Polio", "Total expenditure", "Diphtheria", "HIV/AIDS", "GDP", "Population", "thinness 1-19 years", "thinness 5-9 years", "Income composition of resources", "Schooling", "Year", "Status", "Adult Mortality"]. Additionally, after performing k-fold cross validation for k = 5, we obtained these results for the mean squared error after each iteration:
 
 ![KFold](images/KFoldModel1.png "KFold")
